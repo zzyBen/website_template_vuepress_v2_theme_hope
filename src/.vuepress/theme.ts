@@ -67,8 +67,8 @@ export default hopeTheme({
   },
 
   encrypt: {
-    global: true,
-    admin: 'baozi',
+    // global: true,
+    // admin: 'baozi',
     config: {
       "/guide/encrypt.html": ["1234"],
     },
