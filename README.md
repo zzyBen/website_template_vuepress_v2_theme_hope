@@ -9,8 +9,6 @@ npm init vuepress-theme-hope@next src
 
 `src/.vuepress/theme.ts`
 ```js
-base: "/website_template_vuepress_v2_theme_hope",
-
 encrypt: {
     global: true,
     admin: 'baozi',
@@ -18,4 +16,11 @@ encrypt: {
         "/guide/encrypt.html": ["1234"],
     },
 },
+```
+
+
+`src/.vuepress/config.ts`
+```js
+  base: "/website_template_vuepress_v2_theme_hope/",
+  dest: './docs',
 ```

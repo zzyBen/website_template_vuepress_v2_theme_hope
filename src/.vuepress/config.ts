@@ -6,7 +6,7 @@ export default defineUserConfig({
   title: "Theme Demo",
   description: "A demo for vuepress-theme-hope",
 
-  base: "/website_template_vuepress_v2_theme_hope",
-
+  base: "/website_template_vuepress_v2_theme_hope/",
+  dest: './docs',
   theme,
 });
