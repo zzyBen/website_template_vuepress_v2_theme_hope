@@ -9,7 +9,7 @@ tag:
 ---
 
 # Article 1
-
+![Logo](/logo.svg)
 ## Heading 2
 
 Here is the content.
