@@ -161,14 +161,6 @@ You can use all kinds of markup in slides.
 ## Layout
 
 ![Logo](/logo.png)
-
-withbase:
-<img :src="withBase('/logo.png')">
-
-Relative path:
-![Logo](./slide_images/logo.png)
-
-
 <!-- .element: class="r-stretch" -->
 
 👆 The `r-stretch` class helper lets you resize an element, like an image or video, to cover the remaining vertical space in a slide.
